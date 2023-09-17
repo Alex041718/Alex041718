@@ -1,0 +1,77 @@
+.ListeProjet {
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 75px;
+    width: 900px;
+}
+
+.ListeProjet > h2 {
+    width: 311px;
+    margin: auto;
+   
+}
+
+.projetContainer .title {
+    width: 311px;
+   
+}
+
+
+
+.projetContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+.smallContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+*/
+
+.smallContainer {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    align-items: flex-start;
+    
+}
+
+
+
+/*
+.boxHide {
+    display: block;
+    width: 900px;
+    height: 300px;
+    background:  linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #EBF2DA 50%);
+    position: relative;
+    bottom: 367px;
+}
+*/
+
+.buttonHideShow {
+    font-family: Inter;
+    margin: auto;
+    text-align: center;
+    width: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #EBF2DA;
+    padding: 5px;
+    border: solid 2px #96AA68;
+    color : #96AA68;
+    border-radius: 7px;
+}
+
+ul > li {
+    font-family: Inter;
+    font-size: 13px;
+}

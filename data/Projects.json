@@ -1,0 +1,140 @@
+[
+    {
+      "id": 0,
+      "title": "Amazing",
+      "description": "Amazing est un outil de surveillance de prix de produit Amazon. Il permet de rechercher un produit et d’en lancer la surveillance. Un graphe permet de visualiser l’évolution du prix d’un produit.",
+      "image": "Amazing.png",
+      "tech": [
+        "Node.js",
+        "Express",
+        "JavaScript",
+        "PHP"
+      ],
+      "github": "https://github.com/Alex041718/Amazing",
+
+      "skills": [
+        [["Compétence 1 : Réaliser un développement d’application"],
+        "AC 3 - Faire des essais et évaluer les résultats en regard des spécifications",
+        "AC 4 - Développer des interfaces utilisateur"],
+        
+        [["Compétence 4 : Gérer des données de l’information"],
+        "AC 1 - Mettre à jour et interroger une base de données",
+        "AC 2 - Visualiser des données"]
+      ]
+
+    },
+    {
+      "id": 1,
+      "title": "Puissance 4",
+      "description": "J’ai conçu le jeu “ Puissance 4 “, jouable à deux dans un terminal, dans le langage C. Le programme gère toutes les fonctionnalité du jeu du puissance 4 : la détection de victoire, le positionnement des jetons avec la gravité et la gestion de tour par tour pour les 2 joueurs.",
+      "image": "Puissance4.png",
+      "tech": [
+        "C"
+      ],
+
+      "skills": [
+        [["Compétence 1 : Développer des applications informatiques simples"],
+        "AC 11.01 Implémenter des conceptions simples",
+        "AC 11.03 Faire des essais et évaluer les résultats en regard des spécifications"]
+      ]
+
+    },
+    {
+      "id": 2,
+      "title": "Bot de Puissance 4",
+      "description": "J’ai dévelopé un “Bot de Puissance 4”, permettant à un joueur de l’affronter au jeu du Puissance 4. Le programme s’adapte à chaque état de la partie. En fonction de la grille, il bloque l’alignement des jetons du joueur adverse (Pour 3 et 4 jetons) et est capable de choisir la meilleure action à faire en observant un coup à l’avance s’il perd ou non. Le Programme est développé en C.",
+      "image": "Bot4.png",
+      "tech": [
+        "C"
+      ],
+
+      "skills": [
+        [["Compétence 2 : Appréhender et construire des algorithmes"],
+        "AC 12.01 Analyser un problème avec méthode (découpage  en éléments algorithmiques simples, structure de  données...)  ",
+        "AC 12.02 Comparer des algorithmes pour des problèmes  classiques (tris simples, recherche...)"]
+        
+        
+      ]
+
+    },
+    {
+      "id": 3,
+      "title": "Elex",
+      "description": "Elex est un outil de gestion de serveur Minecraft. Avec une amie, j’avais mis en place un serveur minecraft sur un raspberry Pi. Voulant interragir avec ce dernier sans être en jeu, j’ai conçu une interface Web (Django) permettant d’executer des scripts Python envoyant des requêtes SSH à la machine qui héberge le serveur permettant de manipuler ce dernier.",
+      "image": "Elex.png",
+      "tech": [
+        "Python",
+        "Django"
+      ],
+      "github": "https://github.com/Alex041718/Elex",
+
+      "skills": [
+        [["Compétence 1 : Réaliser un développement d’application"],
+        "AC 3 - Faire des essais et évaluer les résultats en regard des spécifications",
+        "AC 4 - Développer des interfaces utilisateur"],
+        
+        [["Compétence 4 : Gérer des données de l’information"],
+        "AC 1 - Mettre à jour et interroger une base de données",
+        "AC 2 - Visualiser des données"]
+      ]
+
+    },
+    {
+      "id": 4,
+      "title": "Traitement de données Brut en PDF",
+      "description": "C'est un outil Docker qui convertit les données trimestrielles brutes en PDF via un script PHP, créant trois rapports sur la région, les produits les plus populaires et les meilleurs vendeurs. Les résultats sont affichés sur une page HTML/PHP, convertible en PDF A4. Il vise une utilisation aisée avec une documentation claire.",
+      "image": "phpTreatment.png",
+      "tech": [
+        "PHP",
+        "Bash",
+        "Docker"
+      ],
+      "github": "https://github.com/Alex041718/sae103Temp",
+
+      "skills": [
+        [["Compétence 3 : Installer et configurer un poste de travail"],
+        "AC 13.01 Identifier les différents composants (matériels et logiciels) d'un système numérique",
+        "AC 13.02 Utiliser les fonctionnalités de base d'un système multitâches / multiutilisateurs",
+        "AC 13.03 Installer et configurer un système d'exploitation et des outils de développement"
+        ]
+      ]
+
+    },
+    {
+      "id": 5,
+      "title": "Organiser un événement",
+      "description": "Organisation d'un évennement de Team building. Mise en place d'outils de travail collaboratif. Rapport d'organisation d'un évenement. Étude de l'enteprise choisie. Méthode du QQOQCCP. Organigramme des tâches : diagramme de gantt Flyer de l'événement Film événementiel. Support visuel de présentation orale de l'événement. Présentation orale",
+      "image": "teamBuilding.jpg",
+      "tech": [
+        "Travailler en équipe 😎"
+      ],
+      
+
+      "skills": [
+        [["AC 16.02 Découvrir les aptitudes requises selon les différents secteurs d'activité"],
+        "AC 16.03 Identifier les statuts, les fonctions et les rôles de chaque membre de l'équipe pluridisciplinaire",
+        "AC 16.04 Acquérir les compétences interpersonnelles pour travailler en équipe"
+        ]
+      ]
+
+    },
+    {
+      "id": 6,
+      "title": "Sport Koh",
+      "description": "En groupe, nous avons réalisé un site web pour une association sportive fictive. Nous avons utilisé HTML, CSS et JS. Nous avons utilisé Figma pour réaliser le design du site.",
+      "image": "sportKoh.png",
+      "tech": [
+        "Html","CSS","JS","Figma"
+      ],
+      "github": "regreihgiuh",
+
+      "skills": [
+        [["AC 16.02 Découvrir les aptitudes requises selon les différents secteurs d'activité"],
+        "AC 16.03 Identifier les statuts, les fonctions et les rôles de chaque membre de l'équipe pluridisciplinaire",
+        "AC 16.04 Acquérir les compétences interpersonnelles pour travailler en équipe"
+        ]
+      ]
+
+    }
+]
+  

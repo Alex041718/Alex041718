@@ -1,0 +1,28 @@
+.listeTechno {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 80px;
+    
+    
+    
+}
+
+.listeTechno .row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    gap: 10px;
+    height: 134px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 500px) {
+
+    .listeTechno {
+        flex-wrap: wrap;
+    }
+}

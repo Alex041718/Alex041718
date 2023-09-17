@@ -1,0 +1,108 @@
+.smallProjet {
+    background-color: #F5F9EB;
+    display: flex;
+    flex-direction: column;
+
+    padding: 46px;
+    border-radius: 10px;
+    width: 280px;
+    gap: 20px;
+    margin: 30px;
+
+    flex: 0 0 auto;
+    
+    
+
+}
+
+
+
+
+.smallProjet .left,.smallProjet .right  {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    
+    
+}
+
+.smallProjet .right {
+    display: none;
+}
+
+
+.smallProjet .description {
+    
+    background-color: #EAF2D7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.smallprojetTitle {
+    margin: 0;
+    
+}
+
+.smallProjet .skills {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.smallProjet .skills {
+    padding: 13px 45px;
+    margin-top: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+
+.smallProjet .skills > .skillsTitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;  
+    margin: 0;
+    text-align: center;
+}
+
+.smallProjet .skills > .smallComment {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 17px;
+    /* or 167% */
+
+    
+    text-align: center;
+    margin: 0;
+
+    color: #8B8B8B;
+}
+
+.smallProjet .skills .boxCompetence {
+    
+}
+
+.smallProjet .skills .boxCompetence > h4 {
+    font-weight: 600;
+    font-size: 10px;
+    font-family: Inter;
+    margin: 8px;
+}
+
+.smallProjet .skills .boxCompetence > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 14px;
+    margin: 3px;
+    padding-left: 20px;
+}
+

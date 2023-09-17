@@ -1,0 +1,10 @@
+.containerFleche {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 110px;
+}
+.containerFleche p {
+    margin: 0px;
+}

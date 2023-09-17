@@ -1,0 +1,141 @@
+.Projet {
+    background-color: #F5F9EB;
+    display: flex;
+    flex-direction: row;
+
+    padding: 46px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    width: 808px;
+    justify-content: space-between;
+}
+
+
+.Projet .left,.Projet .right  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+}
+
+.Projet .left {
+    flex-basis: 50%;
+}
+
+.Projet .right {
+    flex-basis: 40%;
+}
+
+
+
+.Projet .image {
+    width: 100%;
+    height: auto;
+}
+
+.Projet .description {
+    width: 100%;
+    background-color: #EAF2D7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.projetTitle {
+    margin: 0;
+}
+
+.Projet .skills {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.Projet .skills {
+
+    display: none;
+
+
+    padding: 13px 45px;
+    margin-top: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+
+.Projet .skills > .skillsTitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;  
+    margin: 0;
+    text-align: center;
+}
+
+.Projet .skills > .smallComment {
+    font-weight: 400;
+    font-size: 9px;
+    
+    /* or 167% */
+
+    
+    text-align: center;
+    margin: 0;
+
+    color: #8B8B8B;
+}
+
+.Projet .skills .boxCompetence {
+    
+}
+
+.Projet .skills .boxCompetence > h4 {
+    font-weight: 500;
+    font-size: 11px;
+    
+    margin: 0;
+}
+
+.Projet .skills .boxCompetence > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 10px;
+    margin: 3px;
+    padding-left: 20px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 500px) {
+    .Projet {
+        flex-direction: column;
+        width: 240px;
+        padding: 30px 35px;
+    }
+
+    .Projet .left,.Projet .right  {
+        flex-basis: 100%;
+    }
+
+    .Projet .right {
+        margin-top: 40px;
+    }
+
+    .Projet .skills {
+        margin-top: 40px;
+    }
+
+    .Projet .description {
+        width: auto;
+    }
+
+    .Projet .left {
+        gap: 20px;
+    }
+}
